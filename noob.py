@@ -1,5 +1,3 @@
 def mod(a, b):
-    quotient = int(a / b)
-
-    return (a - quotient * b)
+    return (a - int(a / b) * b)
     
