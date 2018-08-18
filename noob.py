@@ -1,3 +1,3 @@
 def mod(a, b):
-    return (a - int(a / b) * b)
+    return a % b
     
